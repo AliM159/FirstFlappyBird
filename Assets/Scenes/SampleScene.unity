@@ -119,7 +119,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &130327204
+--- !u!1 &297373621
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,8 +127,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 130327206}
-  - component: {fileID: 130327205}
+  - component: {fileID: 297373623}
+  - component: {fileID: 297373622}
   m_Layer: 0
   m_Name: Pipe Spawner
   m_TagString: Untagged
@@ -136,29 +136,31 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &130327205
+--- !u!114 &297373622
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 130327204}
+  m_GameObject: {fileID: 297373621}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b57f10c9820ab9949896c5ba955bd8d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PipeSpawnerScript
-  pipe: {fileID: 0}
---- !u!4 &130327206
+  pipe: {fileID: 6665970805478108467, guid: 1e847161b6b9d724d8a3cc2c886c5e23, type: 3}
+  spawnRate: 3
+  hightOffset: 10
+--- !u!4 &297373623
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 130327204}
+  m_GameObject: {fileID: 297373621}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.34611, y: -0.21919, z: 0}
+  m_LocalPosition: {x: 29.5, y: 0.37587, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -420,7 +422,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4.5
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -519,7 +521,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   myRigidBody: {fileID: 1649731630}
-  flapStrength: 10
+  flapStrength: 15
 --- !u!58 &1649731634
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -563,4 +565,4 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 1649731632}
-  - {fileID: 130327206}
+  - {fileID: 297373623}
