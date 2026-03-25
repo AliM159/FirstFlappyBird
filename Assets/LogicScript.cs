@@ -1,0 +1,21 @@
+using UnityEngine;
+using UnityEngine.UI;
+
+public class LogicScript : MonoBehaviour
+{
+    public int playerScore;
+    public Text scoreText;
+
+    void Start()
+    {
+        playerScore = 0;
+        scoreText.text = playerScore.ToString();
+    }
+
+    [ContextMenu("Increase Score")]
+    public void addScore ()
+    {
+        playerScore += 1;
+        scoreText.text = playerScore.ToString();
+    }
+}

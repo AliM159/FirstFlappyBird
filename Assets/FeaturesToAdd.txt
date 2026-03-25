@@ -1,0 +1,6 @@
+1. Start Menu (Sound and Skins)
+2. Coins 
+3. Moving Pipes
+4. Closing and Opening Pipes
+5. Items to get extra life
+6. Score Doubler
