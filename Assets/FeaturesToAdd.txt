@@ -4,3 +4,5 @@
 4. Closing and Opening Pipes
 5. Items to get extra life
 6. Score Doubler
+7. Secret Pipe to teleport to a new place
+8. Sudden moving pipes
