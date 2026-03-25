@@ -302,8 +302,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -756, y: 353}
-  m_SizeDelta: {x: 222.7, y: 265.76}
+  m_AnchoredPosition: {x: -546.9, y: 353}
+  m_SizeDelta: {x: 754.6, y: 265.76}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &495755551
 MonoBehaviour:
@@ -338,7 +338,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 0
 --- !u!222 &495755552
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -575,7 +575,7 @@ GameObject:
   - component: {fileID: 580549711}
   m_Layer: 0
   m_Name: Logic Manager
-  m_TagString: Untagged
+  m_TagString: Logic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
