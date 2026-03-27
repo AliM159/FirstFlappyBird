@@ -711,6 +711,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LogicScript
   playerScore: 0
   scoreText: {fileID: 495755551}
+  gameOverScreen: {fileID: 142748651}
 --- !u!4 &580549712
 Transform:
   m_ObjectHideFlags: 0
